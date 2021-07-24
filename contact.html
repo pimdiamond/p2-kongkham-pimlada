@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+
+		<head>
+
+				<meta charset="utf-8">
+
+				<title>Contact Barkley's K9 Training</title>
+				<meta name="Keywords" content="Contact Barkley's K9 Training"/>
+
+				<!-- Favicon-->
+				<link rel="shortcut icon" type="image/png" href="images/logo.png"/>
+
+				<link type="text/css" rel="stylesheet" href="styles.css" />
+
+
+				 <!-- Google Font-->
+				 <link rel="preconnect" href="https://fonts.gstatic.com">
+				 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
+
+
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+				<!--[if lt IE 9]>
+					<script src="js/html5shiv-printshiv.min.js"></script>
+				<![endif]-->
+
+		</head>
+		<body>
+
+			<!-- Navigation -->
+		  <header> <a href="index.html">
+		    <img class="logo" src="images/logo.png" alt="logo" title="Contact Barkley's K9 Training logo"/>
+		    </a>
+
+				<button class="hamburger">&#9776;</button>
+				<button class="cross">&#735;</button>
+
+				<nav class="menu">
+					<ul>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="ourmission.html">Our Mission</a></li>
+						<li class="orange"><a href="contact.html">Donate</a></li>
+	
+					</ul>
+			 </nav>
+	
+		   <nav>
+					<ul>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="ourmission.html">Our Mission</a></li>
+						<li class="orange"><a href="contact.html">Donate</a></li>
+					</ul>
+			</nav>
+		    </nav>
+		  </header>
+
+		  <h1 class="contactpage">Contact</h1>
+			<!-- Contact Form-->
+			<div class="payment">
+		  <section class="form">
+				<form class="contact-form" id="test_form" name="test_form" method="POST" action="thankyou.html" onsubmit="return   validateForm(this)">
+
+				<div class="first-name input-section">
+					<label for="firstname" class="label_input_wrap">First Name:</label>
+					<input type="text" name="firstname" id="firstname" placeholder="ex. John"/>
+				</div>
+
+				<div class="last-name input-section">
+					<label for="lastname" class="label_input_wrap">Last Name:</label>
+					<input type="text" name="lastname" id="lastname" placeholder="ex. Smith"/>
+				</div>
+
+				<div class="email input-section">
+					<label for="email" class="label_input_wrap">Email:</label>
+					<input type="email" name="email" id="email" placeholder="jsmith@example.com"/>
+				</div>
+
+				<div class="comments input-section">
+				 	<label for="comments" class="label_input_wrap">Message: </label>
+				 	<textarea name="comments" id="comments" cols="50" rows="10" placeholder="Your Comment Goes Here"></textarea>
+				</div>
+
+				 <div class="submit input-section">
+				   <input type="submit" value="Submit"/>
+				 </div>
+
+				 <div class="pseudo">
+				   <p>is important to us!</p>
+				 </div>
+			</form>
+		</section>
+
+
+		<section class="payinfo">
+
+			<!--The div element for the map -->
+
+			<!-- <div id="map"></div> -->
+			<br>
+			<h2>Accepted Payment Types:</h2>
+			<ol>
+			<li>Venmo</li>
+			<li>PayPal</li>
+			<li>Cash</li>
+		</ol><br>
+
+			<p>- Payment is due at the time of lesson</p>
+			<p>- You can pre-pay for the week or more. If a lesson needs to be cancelled (weather or otherwise), the cancelled lesson payment can be applied to the next lesson the family attends.
+			</p>
+
+
+		</section>
+		</div>
+		<!-- Footer Section -->
+		<footer class="footer_banner">
+
+			<p class="footer_header">FOR THE LATEST NEWS &amp; UPDATES</p>
+			<div class="button">subscribe</div>
+		</footer>
+		<!-- Add font awesome icons -->
+		<div class="socialmedia">
+			<a href="https://www.facebook.com/mermaidsntadpoles" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-linkedin"></a>
+			<a href="#" class="fa fa-youtube"></a>
+			<a href="#" class="fa fa-instagram"></a>
+		</div>
+
+		<!-- <div class="create">Designed By Pimlada Kongkham</div> -->
+
+
+
+		<script src="js/hamburger.js"></script>
+
+		<!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+		<script async
+		     src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap">
+		</script>
+
+		<script src="js/map.js"></script>
+
+
+		</body>
+</html>
