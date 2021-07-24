@@ -96,6 +96,14 @@ span.a {
 
  }
 
+ #more {display: none;}
+
+ button#myBtn {
+    color: white;
+    background-color: brown;
+    padding: 3px;
+}
+
  p.space {
     padding-top: 14px;
 }
