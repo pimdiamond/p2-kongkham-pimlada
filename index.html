@@ -72,6 +72,20 @@
 	   </div>
 	  </section>
 
+      <button class="open-button" onclick="openForm()">Questions?</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Questions?</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
 	  <!-- <section class="page_break2">
 	    <h2>OUR MISSION</h2>
 	  </section> -->
