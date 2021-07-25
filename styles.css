@@ -287,7 +287,7 @@ section.collasp {
   
   /* Add a red background color to the cancel button */
   .form-container .cancel {
-	background-color: #0793c6;
+	background-color: #713823;
   }
   
   /* Add some hover effects to buttons */
@@ -353,7 +353,7 @@ section.collasp {
 }
 
 .contact-form {
-  background: #8BE0DD;
+  background: #713823;
   border-radius: 10px;
 	padding: 10px;
 }

@@ -31,22 +31,22 @@
 		<body>
 
 			<!-- Navigation -->
-		  <header> <a href="index.html">
-		    <img class="logo" src="images/logo.png" alt="logo" title="Contact Barkley's K9 Training logo"/>
-		    </a>
-
+			<header> <a href="index.html">
+				<img class="logo" src="images/hwlogo1.png" alt="logo" title="Non Profit Project"/>
+				</a>
+		
 				<button class="hamburger">&#9776;</button>
 				<button class="cross">&#735;</button>
-
+		
 				<nav class="menu">
 					<ul>
 						<li><a href="about.html">About Us</a></li>
 						<li><a href="ourmission.html">Our Mission</a></li>
-						<li class="orange"><a href="contact.html">Donate</a></li>
-	
+						<li><a href="contact.html">Donate</a></li>
+		
 					</ul>
 			 </nav>
-	
+		
 		   <nav>
 					<ul>
 						<li><a href="about.html">About Us</a></li>
@@ -54,7 +54,6 @@
 						<li class="orange"><a href="contact.html">Donate</a></li>
 					</ul>
 			</nav>
-		    </nav>
 		  </header>
 
 		  <h1 class="contactpage">Contact</h1>
@@ -114,26 +113,39 @@
 
 		</section>
 		</div>
+		
 		<!-- Footer Section -->
-		<footer class="footer_banner">
+		<footer>
+			<!-- Add font awesome icons -->
+			<div class="socialmedia">
+				
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-linkedin"></a>
+				<a href="#" class="fa fa-youtube"></a>
+				<a href="#" class="fa fa-instagram"></a>
+	
+				<p>Designed by Pimlada Kongkham</p>
+			</div>
+	
+			</footer>
 
-			<p class="footer_header">FOR THE LATEST NEWS &amp; UPDATES</p>
-			<div class="button">subscribe</div>
-		</footer>
-		<!-- Add font awesome icons -->
-		<div class="socialmedia">
-			<a href="https://www.facebook.com/mermaidsntadpoles" class="fa fa-facebook"></a>
-			<a href="#" class="fa fa-twitter"></a>
-			<a href="#" class="fa fa-linkedin"></a>
-			<a href="#" class="fa fa-youtube"></a>
-			<a href="#" class="fa fa-instagram"></a>
+			<button class="open-button" onclick="openForm()">Questions?</button>
+		<div class="chat-popup" id="myForm">
+		<form action="/action_page.php" class="form-container">
+			<h1>Questions?</h1>
+
+			<label for="msg"><b>Message</b></label>
+			<textarea placeholder="Type message.." name="msg" required></textarea>
+
+			<button type="submit" class="btn">Send</button>
+			<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+		</form>
 		</div>
 
-		<!-- <div class="create">Designed By Pimlada Kongkham</div> -->
 
 
-
-		<script src="js/hamburger.js"></script>
+		
 
 		<!-- Async script executes immediately and must be after any DOM elements used in callback. -->
 		<script async
@@ -141,7 +153,7 @@
 		</script>
 
 		<script src="js/map.js"></script>
-
+        <script src="js/main.js"></script>
 
 		</body>
 </html>
