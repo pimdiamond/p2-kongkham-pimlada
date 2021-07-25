@@ -550,6 +550,11 @@ article.column {
 }
 }
 
+#ty {
+	text-align: center;
+	padding: 14%;
+}
+
 
 @media (min-width: 320px) and (max-width: 749px) {
 .banner {
