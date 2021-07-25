@@ -313,9 +313,6 @@ section.collasp {
 .payinfo h2{
 	  font-size: 1rem;
 }
-.payinfo ol {
-	font-size: 0.9rem;
-}
 
 .payinfo p {
 	font-size: 0.9rem;
@@ -328,19 +325,6 @@ section.collasp {
 	color: #713823;
 }
 
-.thankyou h1{
-  padding: 11% 0 1% 0;
-	font-size: 3.200em;
-	text-align: center;
-	color: #713823;
-}
-
-.thankyou p {
-	text-align: center;
-	font-size: 1.2rem;
-    color: grey;
-	padding-bottom: 6%;
-}
 
 .payment {
 	width: 100%;
@@ -363,7 +347,7 @@ section.collasp {
 }
 
 .submit input {
-	background: #807D7D;
+	background: #faa31b;
 	color: white;
 	padding: 7px;
 	font-weight: bold;
@@ -389,14 +373,16 @@ textarea {
 label {
   font-weight: bold;
   font-size: small;
-	padding-bottom: 3px;
+  padding-bottom: 3px;
 }
 
 .pseudo p:first-of-type:before {
 	content: "Your Feedback ";
 	font-weight: bold;
 }
-
+label.label_input_wrap {
+    color: white;
+}
 
 
 
@@ -514,6 +500,7 @@ padding: 11% 0 1% 5%;
   height: 200px;
   width: 100%;
 } */
+
 
 .payinfo {
 	padding: 0 10% 0% 5%;
