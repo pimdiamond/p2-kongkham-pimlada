@@ -164,7 +164,7 @@ display: none;
 /* Content Section */
 
 .main-content {
-    margin: 2% 0 8% 0;
+    margin: 2% 0 2% 0;
 	
 } 
  .main-content p{
@@ -201,7 +201,7 @@ h1 {
 }
 
 .collapsible {
-	background-color: #777;
+	background-color: #faa31b;
 	color: white;
 	cursor: pointer;
 	padding: 18px;
@@ -212,6 +212,9 @@ h1 {
 	font-size: 15px;
   }
   
+section.collasp {
+    padding: 2% 3% 10% 5%;
+}
   
   
   .content {
