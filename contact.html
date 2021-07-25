@@ -1,33 +1,36 @@
 <!doctype html>
 <html lang="en">
 
-		<head>
+	<head>
 
-				<meta charset="utf-8">
+		<meta charset="utf-8">
 
-				<title>Contact Barkley's K9 Training</title>
-				<meta name="Keywords" content="Contact Barkley's K9 Training"/>
+		<title>Non Organization Project</title>
+		<meta name="Keywords" content="Let's help animal"/>
+		<meta name="Description" content="Animal needs help from you"/>
 
-				<!-- Favicon-->
-				<link rel="shortcut icon" type="image/png" href="images/logo.png"/>
-
-				<link type="text/css" rel="stylesheet" href="styles.css" />
-
-
-				 <!-- Google Font-->
-				 <link rel="preconnect" href="https://fonts.gstatic.com">
-				 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
+		<!-- Favicon-->
+		<link rel="shortcut icon" type="image/png" href="images/hwlogo.png"/>
+		<link type="text/css" rel="stylesheet" href="styles.css" />
 
 
-				<meta name="viewport" content="width=device-width, initial-scale=1">
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		 <!-- Google Font-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		 <link href="https://fonts.googleapis.com/css2?family=Palanquin:wght@600&family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
 
-				<!--[if lt IE 9]>
-					<script src="js/html5shiv-printshiv.min.js"></script>
-				<![endif]-->
 
-		</head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv-printshiv.min.js"></script>
+		<![endif]-->
+
+	</head>
 		<body>
 
 			<!-- Navigation -->
@@ -86,9 +89,9 @@
 				   <input type="submit" value="Submit"/>
 				 </div>
 
-				 <div class="pseudo">
+				 <!-- <div class="pseudo">
 				   <p>is important to us!</p>
-				 </div>
+				 </div> -->
 			</form>
 		</section>
 
@@ -99,16 +102,16 @@
 
 			<!-- <div id="map"></div> -->
 			<br>
-			<h2>Accepted Payment Types:</h2>
-			<ol>
-			<li>Venmo</li>
-			<li>PayPal</li>
-			<li>Cash</li>
-		</ol><br>
+			<h2>Help us protect Africa's beloved wildlife from growing threats</h2>
+		<br>
+			<p>- Please show your commitment to saving Africa's wildlife today. Beloved species are being killed daily. We cannot allow the kidnapping and killing of one more mountain gorilla. We cannot stand by as more lions, cheetahs, bonobos and other precious species are killed in the wildlife trade.
+			</p><br>
+			<h3>Our Location</h3>
 
-			<p>- Payment is due at the time of lesson</p>
-			<p>- You can pre-pay for the week or more. If a lesson needs to be cancelled (weather or otherwise), the cancelled lesson payment can be applied to the next lesson the family attends.
-			</p>
+			<!--The div element for the map -->
+			<div id="map"></div>
+
+
 
 
 		</section>
@@ -128,11 +131,11 @@
 				<p>Designed by Pimlada Kongkham</p>
 			</div>
 	
-			</footer>
+		</footer>
 
 			<button class="open-button" onclick="openForm()">Questions?</button>
-		<div class="chat-popup" id="myForm">
-		<form action="/action_page.php" class="form-container">
+			<div class="chat-popup" id="myForm">
+			<form action="/action_page.php" class="form-container">
 			<h1>Questions?</h1>
 
 			<label for="msg"><b>Message</b></label>
@@ -148,11 +151,13 @@
 		
 
 		<!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-		<script async
-		     src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap">
-		</script>
+		
+		<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYUOHGuZgrqAujDyDgKyyLT_jMgJ4pcro&callback=initMap&libraries=&v=weekly"
+		async
+		></script>
 
-		<script src="js/map.js"></script>
+		
         <script src="js/main.js"></script>
 
 		</body>

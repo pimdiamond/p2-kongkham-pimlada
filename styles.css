@@ -338,7 +338,7 @@ section.collasp {
 .thankyou p {
 	text-align: center;
 	font-size: 1.2rem;
-  color: grey;
+    color: grey;
 	padding-bottom: 6%;
 }
 
@@ -355,7 +355,7 @@ section.collasp {
 .contact-form {
   background: #713823;
   border-radius: 10px;
-	padding: 10px;
+  padding: 10px;
 }
 
 .label_input_wrap {
@@ -398,11 +398,6 @@ label {
 }
 
 
-/* #map {
-
-  height: 200px;
-  width: 100%;
-} */
 
 
 /* Footer Section */
@@ -463,7 +458,10 @@ padding: 1% 0 1% 0;
   color: white;
 }
 
-
+#map {
+	height: 200px;
+	width: 100%;
+  }
 
 
 @media (min-width:750px){
@@ -512,10 +510,10 @@ text-align: left;
 padding: 11% 0 1% 5%;
 }
 
-#map {
+/* #map {
   height: 200px;
   width: 100%;
-}
+} */
 
 .payinfo {
 	padding: 0 10% 0% 5%;
