@@ -466,14 +466,6 @@ padding: 1% 0 1% 0;
 
 
 
-
-
-
-
-
-
-
-
 @media (min-width:750px){
 
 .hamburger, .cross, .menu {
@@ -560,7 +552,52 @@ article.column {
 }
 }
 
+@media (min-width: 320px) and (max-width: 749px) {
+.banner {
+	padding: 1% 10% 1% 0%;
+	text-align: left;
+}
+}
 
+@media (min-width: 320px) and (max-width: 423px) {
+	.hero-content {
+		bottom: 49%;
+	}
+  
+	.hero-content h1 {
+	font-size: 1.5em;
+	}
+
+	.read-more {
+		font-size: 0.7em;
+ }
+}
+
+@media (min-width: 424px) and (max-width: 600px) {
+	.hero-content {
+		bottom: 44%;
+	}
+	.hero-content h1 {
+		font-size: 1.8em;
+		}
+		.read-more {
+			font-size: 0.9em;
+	 }
+	}
+
+@media (min-width: 601px) and (max-width: 672px) {
+	.hero-content {
+		bottom: 33%;
+	}
+
+	.hero-content h1 {
+		font-size: 2em;
+		}
+
+		.read-more {
+			font-size: 1.2em;
+	 }
+	}
 
 @media (min-width:800px){
 .form {
